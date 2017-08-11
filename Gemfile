@@ -52,7 +52,6 @@ gem "therubyracer"
 #gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "foundation-rails",'5.2.1.0'
 gem 'hirb'
-gem 'thin'
 gem 'carrierwave'
 gem "mini_magick"
 gem "select2-rails", '3.5.4'
@@ -65,6 +64,7 @@ gem "cocoon"
 gem 'wicked_pdf'
 gem 'friendly_id', '~> 5.0.0'
 gem 'doorkeeper', '1.1.0'
+gem 'passenger'
 
 gem "omniauth-oauth2"#, '1.0.2'
 #gem 'omniauth-fluxapp' , :path => '/home/tp/Desktop/flux'
